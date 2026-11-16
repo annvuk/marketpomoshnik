@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Контакты — МаркетПомощник</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ШАПКА -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo">🤖 МаркетПомощник</a>
+      <nav class="nav">
+        <a href="index.html" class="nav__link">Главная</a>
+        <a href="features.html" class="nav__link">Возможности</a>
+        <a href="how.html" class="nav__link">Как работает</a>
+        <a href="pricing.html" class="nav__link">Тарифы</a>
+        <a href="faq.html" class="nav__link">FAQ</a>
+        <a href="contacts.html" class="nav__link nav__link--active">Контакты</a>
+        <a href="contacts.html" class="btn btn--primary btn--small">Оставить заявку</a>
+      </nav>
+      <button class="burger" aria-label="Меню">☰</button>
+    </div>
+  </header>
+
+  <!-- ЗАГОЛОВОК -->
+  <section class="page-header">
+    <div class="container">
+      <h1>Оставить заявку</h1>
+      <p class="page-header__lead">Заполните форму — мы свяжемся с вами для обсуждения задачи</p>
+    </div>
+  </section>
+
+  <!-- ФОРМА -->
+  <section class="section">
+    <div class="container container--narrow">
+      <form class="form" id="leadForm" novalidate>
+        <label class="form__field">
+          <span>Имя</span>
+          <input type="text" name="name" required placeholder="Иван">
+        </label>
+        <label class="form__field">
+          <span>Email</span>
+          <input type="email" name="email" required placeholder="name@example.com">
+        </label>
+        <label class="form__field">
+          <span>Маркетплейс</span>
+          <select name="marketplace" required>
+            <option value="">— выберите —</option>
+            <option>Wildberries</option>
+            <option>Ozon</option>
+            <option>Яндекс.Маркет</option>
+            <option>Другое</option>
+          </select>
+        </label>
+        <label class="form__field">
+          <span>Сообщение</span>
+          <textarea name="message" rows="4" placeholder="Опишите задачу"></textarea>
+        </label>
+        <button type="submit" class="btn btn--primary btn--full">Отправить заявку</button>
+        <div class="form__notice" id="formNotice" hidden></div>
+      </form>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section--alt">
+    <div class="container container--narrow">
+      <h2>Хотите узнать больше?</h2>
+      <p class="section__lead">Посмотрите разделы «Возможности» и «Тарифы» для подробной информации.</p>
+      <div class="center-link">
+        <a href="features.html" class="btn btn--ghost">Возможности</a>
+        <a href="pricing.html" class="btn btn--ghost">Тарифы</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ПОДВАЛ -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 МаркетПомощник. Учебный демонстрационный проект.</p>
+      <p class="footer__small">Сайт не является публичной офертой. Данные формы не отправляются.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

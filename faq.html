@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FAQ — МаркетПомощник</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ШАПКА -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo">🤖 МаркетПомощник</a>
+      <nav class="nav">
+        <a href="index.html" class="nav__link">Главная</a>
+        <a href="features.html" class="nav__link">Возможности</a>
+        <a href="how.html" class="nav__link">Как работает</a>
+        <a href="pricing.html" class="nav__link">Тарифы</a>
+        <a href="faq.html" class="nav__link nav__link--active">FAQ</a>
+        <a href="contacts.html" class="nav__link">Контакты</a>
+        <a href="contacts.html" class="btn btn--primary btn--small">Оставить заявку</a>
+      </nav>
+      <button class="burger" aria-label="Меню">☰</button>
+    </div>
+  </header>
+
+  <!-- ЗАГОЛОВОК -->
+  <section class="page-header">
+    <div class="container">
+      <h1>Частые вопросы</h1>
+      <p class="page-header__lead">Ответы на типовые вопросы о работе ИИ-ассистента</p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section">
+    <div class="container">
+      <div class="faq">
+        <details class="faq__item">
+          <summary>Нужен ли доступ к личному кабинету маркетплейса?</summary>
+          <p>Для полноценной работы — да, через API или безопасную интеграцию. В демо-режиме достаточно выгрузки данных.</p>
+        </details>
+        <details class="faq__item">
+          <summary>Как ассистент обрабатывает сложные вопросы?</summary>
+          <p>Если вопрос выходит за рамки базы знаний, ассистент передаёт диалог живому оператору с кратким резюме.</p>
+        </details>
+        <details class="faq__item">
+          <summary>Можно ли обучить ассистента на моих скриптах?</summary>
+          <p>Да. Вы загружаете базу знаний, FAQ и примеры ответов — ассистент адаптируется под ваш стиль общения.</p>
+        </details>
+        <details class="faq__item">
+          <summary>Сколько времени занимает внедрение?</summary>
+          <p>В учебном сценарии — от 1 до 3 дней: подключение, загрузка базы, тестирование и запуск.</p>
+        </details>
+        <details class="faq__item">
+          <summary>Безопасны ли данные покупателей?</summary>
+          <p>Да. Данные шифруются, не передаются третьим лицам и хранятся в соответствии с политикой маркетплейса.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section--alt">
+    <div class="container container--narrow">
+      <h2>Не нашли ответ?</h2>
+      <p class="section__lead">Свяжитесь с нами — мы ответим на все ваши вопросы.</p>
+      <div class="center-link">
+        <a href="contacts.html" class="btn btn--primary">Связаться с нами</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ПОДВАЛ -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 МаркетПомощник. Учебный демонстрационный проект.</p>
+      <p class="footer__small">Сайт не является публичной офертой. Данные формы не отправляются.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

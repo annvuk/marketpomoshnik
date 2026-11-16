@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Как работает — МаркетПомощник</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ШАПКА -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo">🤖 МаркетПомощник</a>
+      <nav class="nav">
+        <a href="index.html" class="nav__link">Главная</a>
+        <a href="features.html" class="nav__link">Возможности</a>
+        <a href="how.html" class="nav__link nav__link--active">Как работает</a>
+        <a href="pricing.html" class="nav__link">Тарифы</a>
+        <a href="faq.html" class="nav__link">FAQ</a>
+        <a href="contacts.html" class="btn btn--primary btn--small">Оставить заявку</a>
+      </nav>
+      <button class="burger" aria-label="Меню">☰</button>
+    </div>
+  </header>
+
+  <!-- ЗАГОЛОВОК СТРАНИЦЫ -->
+  <section class="page-hero">
+    <div class="container">
+      <h1>Как работает МаркетПомощник</h1>
+      <p class="page-hero__lead">Четыре этапа внедрения и интерактивный демо-чат</p>
+    </div>
+  </section>
+
+  <!-- ЭТАПЫ РАБОТЫ -->
+  <section class="section">
+    <div class="container">
+      <h2>Этапы внедрения</h2>
+      <div class="steps">
+        <div class="step step--detailed">
+          <div class="step__num">1</div>
+          <h3>Подключение</h3>
+          <p>Интеграция с личным кабинетом маркетплейса через API или безопасную выгрузку данных. Настройка доступа к информации о товарах, заказах и покупателях.</p>
+          <ul class="step__list">
+            <li>Подключение API маркетплейса</li>
+            <li>Настройка прав доступа</li>
+            <li>Тестовая синхронизация данных</li>
+          </ul>
+        </div>
+        <div class="step step--detailed">
+          <div class="step__num">2</div>
+          <h3>Обучение</h3>
+          <p>Загрузка базы знаний: FAQ, условия возвратов, описания товаров, скрипты ответов. Ассистент адаптируется под ваш стиль общения.</p>
+          <ul class="step__list">
+            <li>Загрузка FAQ и скриптов</li>
+            <li>Добавление описаний товаров</li>
+            <li>Настройка тона общения</li>
+          </ul>
+        </div>
+        <div class="step step--detailed">
+          <div class="step__num">3</div>
+          <h3>Тестирование</h3>
+          <p>Проверка ответов на типовых диалогах, настройка границ компетенций. Убедитесь, что ассистент корректно обрабатывает вопросы.</p>
+          <ul class="step__list">
+            <li>Тестовые диалоги</li>
+            <li>Проверка граничных случаев</li>
+            <li>Настройка эскалации</li>
+          </ul>
+        </div>
+        <div class="step step--detailed">
+          <div class="step__num">4</div>
+          <h3>Запуск</h3>
+          <p>Включение в работу с контролем качества и постепенной передачей диалогов. Мониторинг первых обращений и оперативная корректировка.</p>
+          <ul class="step__list">
+            <li>Постепенное увеличение нагрузки</li>
+            <li>Мониторинг качества ответов</li>
+            <li>Обратная связь от операторов</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ДЕМО-ЧАТ -->
+  <section class="section section--alt">
+    <div class="container">
+      <h2>Демо: диалог с ИИ-ассистентом</h2>
+      <p class="section__lead">Нажмите на типовой вопрос — ассистент ответит так, как ответил бы реальным покупателям.</p>
+
+      <div class="chat">
+        <div class="chat__header">
+          <div class="chat__avatar">🤖</div>
+          <div>
+            <div class="chat__name">МаркетПомощник</div>
+            <div class="chat__status">онлайн</div>
+          </div>
+        </div>
+        <div class="chat__body" id="chatBody">
+          <div class="msg msg--bot">Здравствуйте! Я ИИ-ассистент магазина. Чем могу помочь?</div>
+        </div>
+        <div class="chat__suggestions" id="chatSuggestions">
+          <button class="suggestion" data-q="status">📦 Где мой заказ?</button>
+          <button class="suggestion" data-q="return">🔄 Как оформить возврат?</button>
+          <button class="suggestion" data-q="size">👕 Как подобрать размер?</button>
+          <button class="suggestion" data-q="operator">👤 Соединить с оператором</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section">
+    <div class="container container--narrow">
+      <h2>Готовы начать?</h2>
+      <p class="section__lead">Оставьте заявку — мы свяжемся с вами для обсуждения задачи и расчёта стоимости.</p>
+      <div class="section__cta">
+        <a href="contacts.html" class="btn btn--primary btn--full">Оставить заявку</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ПОДВАЛ -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 МаркетПомощник. Учебный демонстрационный проект.</p>
+      <p class="footer__small">Сайт не является публичной офертой. Данные формы не отправляются.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

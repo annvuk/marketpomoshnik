@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Тарифы — МаркетПомощник</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ШАПКА -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo">🤖 МаркетПомощник</a>
+      <nav class="nav">
+        <a href="index.html" class="nav__link">Главная</a>
+        <a href="features.html" class="nav__link">Возможности</a>
+        <a href="how.html" class="nav__link">Как работает</a>
+        <a href="pricing.html" class="nav__link nav__link--active">Тарифы</a>
+        <a href="faq.html" class="nav__link">FAQ</a>
+        <a href="contacts.html" class="btn btn--primary btn--small">Оставить заявку</a>
+      </nav>
+      <button class="burger" aria-label="Меню">☰</button>
+    </div>
+  </header>
+
+  <!-- ЗАГОЛОВОК СТРАНИЦЫ -->
+  <section class="page-hero">
+    <div class="container">
+      <h1>Тарифы</h1>
+      <p class="page-hero__lead">Выберите подходящий план для вашего бизнеса</p>
+    </div>
+  </section>
+
+  <!-- ТАРИФЫ -->
+  <section class="section">
+    <div class="container">
+      <div class="grid grid--3">
+        <div class="price-card price-card--detailed">
+          <h3>Старт</h3>
+          <div class="price-card__price">Учебный</div>
+          <p class="price-card__desc">Для небольших магазинов, которые хотят попробовать автоматизацию</p>
+          <ul>
+            <li>До 500 обращений в месяц</li>
+            <li>1 маркетплейс</li>
+            <li>Базовая база знаний</li>
+            <li>Email-поддержка</li>
+            <li>Базовая аналитика</li>
+          </ul>
+          <a href="contacts.html" class="btn btn--ghost btn--full">Выбрать тариф</a>
+        </div>
+        <div class="price-card price-card--featured price-card--detailed">
+          <div class="price-card__badge">Популярный</div>
+          <h3>Бизнес</h3>
+          <div class="price-card__price">Учебный</div>
+          <p class="price-card__desc">Для растущих магазинов с несколькими площадками</p>
+          <ul>
+            <li>До 10 000 обращений в месяц</li>
+            <li>3 маркетплейса</li>
+            <li>Расширенная база знаний</li>
+            <li>Приоритетная поддержка</li>
+            <li>Расширенная аналитика</li>
+            <li>Интеграция с CRM</li>
+          </ul>
+          <a href="contacts.html" class="btn btn--primary btn--full">Выбрать тариф</a>
+        </div>
+        <div class="price-card price-card--detailed">
+          <h3>Премиум</h3>
+          <div class="price-card__price">Учебный</div>
+          <p class="price-card__desc">Для крупных продавцов с высокими объёмами обращений</p>
+          <ul>
+            <li>Безлимит обращений</li>
+            <li>Все маркетплейсы</li>
+            <li>Кастомная база знаний</li>
+            <li>Выделенный менеджер</li>
+            <li>Кастомные интеграции</li>
+            <li>SLA 99.9%</li>
+          </ul>
+          <a href="contacts.html" class="btn btn--ghost btn--full">Выбрать тариф</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- СРАВНЕНИЕ -->
+  <section class="section section--alt">
+    <div class="container">
+      <h2>Сравнение тарифов</h2>
+      <div class="table-wrapper">
+        <table class="comparison-table">
+          <thead>
+            <tr>
+              <th>Функция</th>
+              <th>Старт</th>
+              <th>Бизнес</th>
+              <th>Премиум</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Обращений в месяц</td>
+              <td>500</td>
+              <td>10 000</td>
+              <td>Безлимит</td>
+            </tr>
+            <tr>
+              <td>Маркетплейсы</td>
+              <td>1</td>
+              <td>3</td>
+              <td>Все</td>
+            </tr>
+            <tr>
+              <td>База знаний</td>
+              <td>Базовая</td>
+              <td>Расширенная</td>
+              <td>Кастомная</td>
+            </tr>
+            <tr>
+              <td>Поддержка</td>
+              <td>Email</td>
+              <td>Приоритетная</td>
+              <td>Выделенный менеджер</td>
+            </tr>
+            <tr>
+              <td>Аналитика</td>
+              <td>Базовая</td>
+              <td>Расширенная</td>
+              <td>Кастомные отчёты</td>
+            </tr>
+            <tr>
+              <td>Интеграция с CRM</td>
+              <td>—</td>
+              <td>✓</td>
+              <td>✓</td>
+            </tr>
+            <tr>
+              <td>Кастомные интеграции</td>
+              <td>—</td>
+              <td>—</td>
+              <td>✓</td>
+            </tr>
+            <tr>
+              <td>SLA</td>
+              <td>—</td>
+              <td>—</td>
+              <td>99.9%</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section">
+    <div class="container container--narrow">
+      <h2>Остались вопросы?</h2>
+      <p class="section__lead">Оставьте заявку — мы поможем выбрать подходящий тариф и ответим на все вопросы.</p>
+      <div class="section__cta">
+        <a href="contacts.html" class="btn btn--primary btn--full">Оставить заявку</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ПОДВАЛ -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 МаркетПомощник. Учебный демонстрационный проект.</p>
+      <p class="footer__small">Сайт не является публичной офертой. Данные формы не отправляются.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

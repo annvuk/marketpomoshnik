@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>МаркетПомощник — ИИ-ассистент для маркетплейсов</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ШАПКА -->
+  <header class="header">
+    <div class="container header__inner">
+      <a href="index.html" class="logo">🤖 МаркетПомощник</a>
+      <nav class="nav">
+        <a href="index.html" class="nav__link nav__link--active">Главная</a>
+        <a href="features.html" class="nav__link">Возможности</a>
+        <a href="how.html" class="nav__link">Как работает</a>
+        <a href="pricing.html" class="nav__link">Тарифы</a>
+        <a href="faq.html" class="nav__link">FAQ</a>
+        <a href="contacts.html" class="btn btn--primary btn--small">Оставить заявку</a>
+      </nav>
+      <button class="burger" aria-label="Меню">☰</button>
+    </div>
+  </header>
+
+  <!-- ПЕРВЫЙ ЭКРАН -->
+  <section class="hero">
+    <div class="container">
+      <h1>ИИ-ассистент для службы поддержки маркетплейсов</h1>
+      <p class="hero__lead">Автоматизируйте ответы покупателям на Wildberries, Ozon и Яндекс.Маркете. Сократите нагрузку на операторов и ускоряйте обработку обращений.</p>
+      <div class="hero__actions">
+        <a href="how.html" class="btn btn--primary">Посмотреть демо</a>
+        <a href="contacts.html" class="btn btn--ghost">Оставить заявку</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- КРАТКИЕ ВОЗМОЖНОСТИ -->
+  <section class="section">
+    <div class="container">
+      <h2>Что умеет МаркетПомощник</h2>
+      <div class="grid grid--3">
+        <div class="card">
+          <div class="card__icon">💬</div>
+          <h3>Автоответы на вопросы</h3>
+          <p>Отвечает на типовые вопросы о размерах, доставке, наличии и характеристиках товара.</p>
+          <a href="features.html" class="card__link">Подробнее →</a>
+        </div>
+        <div class="card">
+          <div class="card__icon">🔄</div>
+          <h3>Обработка возвратов</h3>
+          <p>Принимает заявки на возврат, проверяет условия и передаёт оператору сложные случаи.</p>
+          <a href="features.html" class="card__link">Подробнее →</a>
+        </div>
+        <div class="card">
+          <div class="card__icon">📊</div>
+          <h3>Аналитика обращений</h3>
+          <p>Считает количество обращений, темы, время ответа и долю решённых без оператора.</p>
+          <a href="features.html" class="card__link">Подробнее →</a>
+        </div>
+      </div>
+      <div class="section__cta">
+        <a href="features.html" class="btn btn--ghost">Все возможности</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- КАК РАБОТАЕТ (кратко) -->
+  <section class="section section--alt">
+    <div class="container">
+      <h2>Как это работает</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step__num">1</div>
+          <h3>Подключение</h3>
+          <p>Интеграция с личным кабинетом маркетплейса через API или выгрузку данных.</p>
+        </div>
+        <div class="step">
+          <div class="step__num">2</div>
+          <h3>Обучение</h3>
+          <p>Загрузка базы знаний: FAQ, условия возвратов, описания товаров, скрипты ответов.</p>
+        </div>
+        <div class="step">
+          <div class="step__num">3</div>
+          <h3>Тестирование</h3>
+          <p>Проверка ответов на типовых диалогах, настройка тона и границ компетенций.</p>
+        </div>
+        <div class="step">
+          <div class="step__num">4</div>
+          <h3>Запуск</h3>
+          <p>Включение в работу с контролем качества и постепенной передачей диалогов.</p>
+        </div>
+      </div>
+      <div class="section__cta">
+        <a href="how.html" class="btn btn--primary">Попробовать демо-чат</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ТАРИФЫ (кратко) -->
+  <section class="section">
+    <div class="container">
+      <h2>Тарифы</h2>
+      <div class="grid grid--3">
+        <div class="price-card">
+          <h3>Старт</h3>
+          <div class="price-card__price">Учебный</div>
+          <ul>
+            <li>До 500 обращений/мес</li>
+            <li>1 маркетплейс</li>
+            <li>Базовая база знаний</li>
+          </ul>
+          <a href="pricing.html" class="btn btn--ghost">Подробнее</a>
+        </div>
+        <div class="price-card price-card--featured">
+          <div class="price-card__badge">Популярный</div>
+          <h3>Бизнес</h3>
+          <div class="price-card__price">Учебный</div>
+          <ul>
+            <li>До 10 000 обращений/мес</li>
+            <li>3 маркетплейса</li>
+            <li>Расширенная аналитика</li>
+          </ul>
+          <a href="pricing.html" class="btn btn--primary">Подробнее</a>
+        </div>
+        <div class="price-card">
+          <h3>Премиум</h3>
+          <div class="price-card__price">Учебный</div>
+          <ul>
+            <li>Безлимит обращений</li>
+            <li>Все маркетплейсы</li>
+            <li>Выделенный менеджер</li>
+          </ul>
+          <a href="pricing.html" class="btn btn--ghost">Подробнее</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="section section--alt">
+    <div class="container container--narrow">
+      <h2>Готовы автоматизировать поддержку?</h2>
+      <p class="section__lead">Оставьте заявку — мы свяжемся с вами для обсуждения задачи.</p>
+      <div class="section__cta">
+        <a href="contacts.html" class="btn btn--primary btn--full">Оставить заявку</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ПОДВАЛ -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 МаркетПомощник. Учебный демонстрационный проект.</p>
+      <p class="footer__small">Сайт не является публичной офертой. Данные формы не отправляются.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
